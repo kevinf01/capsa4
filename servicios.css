@@ -1,0 +1,91 @@
+.text-justify{
+    text-align: justify;
+    width: 350px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 25rem;
+}
+#texto{
+    display: flex;
+    justify-content: center;
+}
+@media (width< 1610px) {
+    .card{
+        width: 18rem;
+    }
+    .text-justify{
+        text-align: justify;
+        width: 250px;
+    }
+    
+}
+@media (width< 1155px) {
+    .card{
+        width: 15rem;
+    }
+    .text-justify{
+        text-align: justify;
+        width: 180px;
+    }
+    
+}
+@media (width< 1000px) {
+    .col-md-12{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 40rem;
+    }
+    .text-justify{
+        text-align: justify;
+        width: 500px;
+    }
+    
+}
+@media (width< 580px) {
+    .col-sm-12{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 25rem;
+    }
+    .text-justify{
+        text-align: justify;
+        width: 300px;
+    }
+    
+}
+@media (width< 446px) {
+    .col-sm-12{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 20rem;
+    }
+    .text-justify{
+        text-align: justify;
+        width: 250px;
+    }
+    
+}
+@media (width< 338px) {
+    .col-sm-12{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 18rem;
+    }
+    .text-justify{
+        text-align: justify;
+        width: 200px;
+    }
+    
+}
